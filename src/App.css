@@ -1,4 +1,4 @@
-.app {
+/*app {
   height: 100vh;
   width: 100vw;
   transition: background-color 1s ease-in;
@@ -19,7 +19,99 @@
 /*  Search bar */
 
 /* Current weather */
-
+/*
 div {
   border: 5px solid red;
 }
+*/
+*{
+  font-family: 'Raleway','sans-serif';
+}
+body{
+  margin:0;
+}
+header{
+  background-color: #759eda;
+  display: flex;
+ height: 120px;
+ align-items: center;
+ align-content: flex-end;
+}
+button,input{
+  margin-top: 10px;
+margin-left: 20px;
+  
+}
+main{
+  width: 100%;
+}
+input{
+  border: none;
+  background-color: transparent;
+}
+input:focus{
+border: none;
+outline: none;
+border-bottom: 1px solid black;
+}
+button{
+  height: 50px;
+  background-color: #5979ce;
+  border: none;
+  
+}
+.oc{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.img1 span{
+font-weight: bold;
+}
+.temperature{ 
+  color: #0F1D4D;
+}
+.main{
+  background-color: #9ccef4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .img1 img{
+  width:40%;
+} */
+.img1,p{
+  text-align: center
+}
+
+.transspan{
+ opacity: 0.5;
+}
+.weath img{
+  width: 100px;
+  height: 100px;
+}
+.weath{
+  text-align: center;
+  margin:10px;
+  padding-bottom: 20px;
+}
+.container{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media  (max-width:446px) {
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+
+}
+ 
+
+
